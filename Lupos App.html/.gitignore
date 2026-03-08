@@ -1,2 +1,4 @@
-# Ignore macOS system files
-.DS_Store
+git rm --cached "db.store"
+git commit -m "Stop tracking db.store"
+git push origin main
+
